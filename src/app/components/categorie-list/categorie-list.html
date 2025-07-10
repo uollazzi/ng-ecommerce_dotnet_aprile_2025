@@ -1,1 +1,6 @@
-<p>categorie-list works!</p>
+<h1>Elenco Categorie E-Commerce</h1>
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let categoria of categorie">
+    {{ categoria.nome }}
+  </li>
+</ul>
